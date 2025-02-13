@@ -4,6 +4,7 @@
   "description": "Revolut CSV convertor to Delta APP CSV format",
   "main": "index.js",
   "scripts": {
+    "start": "npx tsx index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/bbcelly/revolut2delta/issues"
   },
-  "homepage": "https://github.com/bbcelly/revolut2delta#readme"
+  "homepage": "https://github.com/bbcelly/revolut2delta#readme",
+  "dependencies": {
+    "csv-parse": "^5.6.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
 }
