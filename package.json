@@ -1,0 +1,23 @@
+{
+  "name": "revolut2delta",
+  "version": "1.0.0",
+  "description": "Revolut CSV convertor to Delta APP CSV format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbcelly/revolut2delta.git"
+  },
+  "keywords": [
+    "CSV",
+    "convertor"
+  ],
+  "author": "Pavel Cvetler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbcelly/revolut2delta/issues"
+  },
+  "homepage": "https://github.com/bbcelly/revolut2delta#readme"
+}
